@@ -3,9 +3,13 @@
 Team Members:
 
 Elias Papalambros(LizardNibbler) - Leader
+
 Md Rayhan Amin(rayhanramin)
+
 Kyle Prewitt(kprewitt22)
+
 Yiheng Fang(ash4747)
+
 Alex Wilks(Apw148)
 
 Language:
