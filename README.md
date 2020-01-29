@@ -13,9 +13,11 @@ Yiheng Fang(ash4747)
 Alex Wilks(Apw148)
 
 
+
 Language:
 
 Python
+
 
 
 Framework:
@@ -23,9 +25,11 @@ Framework:
 Django
 
 
+
 Database:
 
 TBD
+
 
 
 Description:
