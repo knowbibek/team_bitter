@@ -34,4 +34,4 @@ TBD
 
 Description:
 
-A interactive website that is twitter-like with features such as posting, following, liking, sharing, and seeing a news feed
+An interactive website that is twitter-like with features such as posting, following, liking, sharing, and seeing a news feed
