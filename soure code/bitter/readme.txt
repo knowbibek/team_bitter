@@ -8,7 +8,7 @@ how to run:
 cd c:\bitter
 python manage.py runserver
 )
-then visit http://127.0.0.1:8000/admin/ to watch database
+then visit http://127.0.0.1:8000/admin/ to watch database（username and password are "admin"）
 and vist http://127.0.0.1:8000/online/ to see  rudiment  project
 )
 
