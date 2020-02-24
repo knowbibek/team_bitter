@@ -16,19 +16,19 @@ Alex Wilks(Apw148)
 
 Language:
 
-Python, HTML, CSS
+Python, HTML, CSS, javascript
 
 
 
 Framework:
 
-Django
+Django, Materialize CSS
 
 
 
 Database:
 
-TBD
+SQLite3
 
 
 
