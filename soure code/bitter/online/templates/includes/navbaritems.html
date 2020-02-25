@@ -1,0 +1,8 @@
+
+        {% if username%}
+             <li><a href="">{{username}}</a></li>
+             <li><a href="http://127.0.0.1:8000/online/login/">Logout</a></li>
+        {% else %}
+            <li><a href="http://127.0.0.1:8000/online/login/">Login</a></li>
+            <li><a href="http://127.0.0.1:8000/online/register/">Register</a></li>
+        {% endif %}

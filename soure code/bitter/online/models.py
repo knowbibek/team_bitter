@@ -13,3 +13,10 @@ class User(models.Model):
     #unique = True
     def __str__(self):
         return self.username
+class UserRelationship(models.Model):
+    selfname=models.CharField(max_length=50)
+    friendname=models.CharField(max_length=50)
+class UserBlocked(models.Model):
+    selfname=models.CharField(max_length=50)
+    blockname=models.CharField(max_length=50)
+

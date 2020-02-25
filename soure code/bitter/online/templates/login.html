@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>log in</title>
-</head>
-<body>
-<h1>log in page：</h1>
+{% extends 'header.html' %}
+
+{% block content %}
+
 <form method = 'post' enctype="multipart/form-data">
     {% csrf_token %}
     {{ error }}
@@ -15,5 +12,5 @@
 </form>
 <br>
 <a href="http://127.0.0.1:8000/online/regist/">regist</a>
-</body>
-</html>
+
+{% endblock %}

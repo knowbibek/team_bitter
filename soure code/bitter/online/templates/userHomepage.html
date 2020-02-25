@@ -1,0 +1,25 @@
+{% extends 'header.html' %}
+
+{% block content %}
+<h1>welcome {{username}} !</h1>
+<form method = 'POST' enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ error }}
+     <p><label>Add  Friend：</label><input type="text" name="friendWaitToAdd" /></p>
+    <input type="submit" name="add" value = "add" />
+</form>
+<form method = 'POST'  enctype="multipart/form-data">
+    {% csrf_token %}
+     <p><label>delete  Friend：</label><input type="text" name="friendWaitToDelete" /></p>
+    <input type="submit" name="delete" value = "delete" />
+</form>
+<form method = 'POST'  enctype="multipart/form-data">
+     <p><label>block ：</label><input type="text" name="friendWaitToBlock" /></p>
+    <input type="submit" name="block" value = "block" />
+</form>
+friend list：{{friendList}}
+block list：{{blockList}}
+<br>
+<a href="http://127.0.0.1:8000/online/login/">exit</a>
+
+{% endblock %}
