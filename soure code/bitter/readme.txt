@@ -1,5 +1,5 @@
-environment：django python
-
+environment：django python tinymce
+pip install django-tinymce4-lite（install tinymce）
 how to run:
 (
 [put bitter folder in c:\  (or whatever)]
