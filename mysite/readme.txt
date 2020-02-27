@@ -30,3 +30,8 @@ Instructions:
 10. After that the user will see the registration page and will require to provide valid information and press the "register" button.
 11. After that the user will be registered and will be forwarded to the homepage.
 12. If the user want to log out of the system he/she will need to click the "logout" button and it will lead the user out of the system.
+
+
+
+
+this is the latest commit.
