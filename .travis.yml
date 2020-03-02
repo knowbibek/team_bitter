@@ -1,0 +1,20 @@
+os: windows # => 1
+language: python # => 2
+    python: # => 3
+      - "3.2"
+      - "3.3"
+      - "3.4"
+      - "3.5"
+      - "3.6"
+      - "3.7"
+      - "3.8"
+    services: # => 4
+      - sqlite
+    env: # => 5
+      -DJANGO=1.8 DB=sqlite
+    install: # => 6
+      - pip install -r requirements.txt
+    before_script: # => 7
+      - mysql -e 'create database test;' -u root
+    script: # => 8
+      - python manage.py test
