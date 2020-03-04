@@ -32,7 +32,7 @@ Instructions:
 12. If the user want to log out of the system he/she will need to click the "logout" button and it will lead the user out of the system.
 
 
-Add information about new commits here
+Add information here everytime you add something in the master branch or coommitting something.
 
-03/03/20
-Just checking the travis ci
+03/03/20- Rayhan
+Just added the ".travis.yml" file in the repository.
