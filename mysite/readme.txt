@@ -34,6 +34,5 @@ Instructions:
 
 Add information here everytime you add something in the master branch or coommitting something.
 
-
 03/03/20- Rayhan
 Just added the ".travis.yml" file in the repository.
