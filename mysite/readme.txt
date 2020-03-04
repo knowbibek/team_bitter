@@ -32,6 +32,7 @@ Instructions:
 12. If the user want to log out of the system he/she will need to click the "logout" button and it will lead the user out of the system.
 
 
+Add information about new commits here
 
-
-this is the latest commit.
+03/03/20
+Just checking the travis ci
